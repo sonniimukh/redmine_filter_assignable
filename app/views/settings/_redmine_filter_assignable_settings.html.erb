@@ -1,12 +1,16 @@
 <p>
-  <%=content_tag(:label, l(:user_activate))%>
-  <%=check_box_tag 'settings[filtera_users]', true, @settings['filtera_users'] == "true" %>
+  <%=content_tag(:label, l(:allow_users))%>
+  <%=check_box_tag 'settings[allow_users]', true, @settings['allow_users'] == "true" %>
 </p>
 <p>
-  <%=content_tag(:label, l(:autor_activate))%>
-  <%=check_box_tag 'settings[filtera_autor]', true, @settings['filtera_autor'] == "true" %>
+  <%=content_tag(:label, l(:allow_groups))%>
+  <%=check_box_tag 'settings[allow_groups]', true, @settings['allow_groups'] == "true" %>
 </p>
 <p>
-  <%=content_tag(:label, l(:groups_activate))%>
-  <%=check_box_tag 'settings[filtera_groups]', true, @settings['filtera_groups'] == "true" %>
+  <%=content_tag(:label, l(:include_author))%>
+  <%=check_box_tag 'settings[include_author]', true, @settings['include_author'] == "true" %>
+</p>
+<p>
+  <%=content_tag(:label, l(:include_assignee))%>
+  <%=check_box_tag 'settings[include_assignee]', true, @settings['include_assignee'] == "true" %>
 </p>

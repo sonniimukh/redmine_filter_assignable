@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  # my_label: "My label"
+  allow_users: Разрешить назначение пользователей
+  allow_groups: Разрешить назначение групп
+  include_author: Включать автора тикета в список
+  include_assignee: Включать текущего ответственного в список

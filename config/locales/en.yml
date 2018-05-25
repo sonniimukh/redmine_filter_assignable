@@ -1,6 +1,7 @@
 # English strings go here for Rails i18n
 en:
   # my_label: "My label"
-  user_activate: Show Users
-  autor_activate: Show Author
-  groups_activate: Show Groups
+  allow_users: Allow users assignment
+  allow_groups: Allow groups assignment
+  include_author: Include ticket author
+  include_assignee: Include current assignee
